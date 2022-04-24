@@ -2,16 +2,16 @@
  For Supercharging cargo
 
  ## What does it do?
- It is based on the reddit comment https://www.reddit.com/r/rust/comments/ua09tc/comment/i5w7n6g/?utm_source=share&utm_medium=web2x&context=3 . It improves cargo build speed
+ It is based on [this reddit comment](https://www.reddit.com/r/rust/comments/ua09tc/comment/i5w7n6g/?utm_source=share&utm_medium=web2x&context=3). It improves cargo build speed.
 
  ## How does it perform compared to Flex?
- Both does the same thing but Truck also comes with mold support and uses lesser number of lines for achieiving the purpose
+ Both do the same thing, but Truck also comes with mold support and uses lesser number of lines for achieving the purpose.
 
  ## Why does it exist in the first place?
- This is created for newbies for their first PR. This project is barebones and can be extended.(Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
+ This is created for newbies for their first PR. This project is barebones and can be extended. (Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
 
  ## How does it work?
- It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold(linux) and ccache with sccache. OSee the reddit comment for more details)
+ It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold(linux) and ccache with sccache.  (See the reddit comment for more details)
 
  ## Requirements
  - sccache: cargo install sccache
