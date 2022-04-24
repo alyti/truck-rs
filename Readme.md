@@ -28,7 +28,7 @@
 
  Run cargo build or run
 
- ##Truck Flags
+ ## Truck Flags
  - noflags: Default build
  - -f: Fast(uses zld and lld)
  - -ff: Faster than -f(uses mold)
