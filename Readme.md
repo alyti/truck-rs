@@ -11,22 +11,22 @@
  This is created for newbies for their first PR. This project is barebones and can be extended.(Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
 
  ## How does it work?
- It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold and ccache with sccache
+ It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold and ccache with sccache. OSee the reddit comment for more details)
 
  ## Requirements
  - sccache: cargo install sccache
- - zld(Mac Users): brew install zld
- - lld(Linux Users): Install using your package manager (For Arch users, sudo pacman -Syu lld)
- - mold(Linux Users): Install using your package manager (For Arch users, sudo pacman -Syu mold)
- - mold(Mac Users): brew install mold
- - Rust Nightly(optional)
+ - zld(Mac Users): `brew install zld`
+ - lld(Linux Users): Install using your package manager (For Arch users, `sudo pacman -Syu lld`)
+ - mold(Linux Users): Install using your package manager (For Arch users, `sudo pacman -Syu mold`)
+ - mold(Mac Users): `brew install mold`
+ - Rust Nightly(optional): But mandatory for -ffn option
 
  ## Quick Start
- truck \[TRUCK FLAGS\] Creates optimisations on existing projects
- truck new my_file \[TRUCK FLAGS\] Similar to cargo new myfile but with truck optimisations
- truck init my_file \[TRUCK FLAGS\] Similar to cargo init but with truck optimisations
+ - `truck [TRUCK FLAGS]` Creates optimisations on existing projects
+ - `truck new my_file [TRUCK FLAGS]` Similar to cargo new myfile but with truck optimisations
+ - `truck init my_file [TRUCK FLAGS]` Similar to cargo init but with truck optimisations
 
- Run cargo build or run
+ **Run cargo build or run** to see the magic
 
  ## Truck Flags
  - noflags: Default build
