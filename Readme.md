@@ -5,7 +5,7 @@
  It is based on the reddit comment https://www.reddit.com/r/rust/comments/ua09tc/comment/i5w7n6g/?utm_source=share&utm_medium=web2x&context=3 . It improves cargo build speed
 
  ## How does it perform compared to Flex?
- Both does the same thing but Truck also allows comes with mold support and lesser number of lines for achieiving the purpose
+ Both does the same thing but Truck also comes with mold support and uses lesser number of lines for achieiving the purpose
 
  ## Why does it exist in the first place?
  This is created for newbies for their first PR. This project is barebones and can be extended. For example, it lacks implementations for freebsd and netbsd and it usually mimicks linux(Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
