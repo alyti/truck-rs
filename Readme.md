@@ -20,7 +20,11 @@
  - mold(Linux Users): Install using your package manager (For Arch users, `sudo pacman -Syu mold`)
  - mold(Mac Users): `brew install mold`
  - Rust Nightly(optional): But mandatory for -ffn option
-
+ 
+ ## How to install
+ `cargo install truck-rs`
+ *Make sure $CARGO_HOME/bin is in path*
+ 
  ## Quick Start
  - `truck [TRUCK FLAGS]` Creates optimisations on existing projects
  - `truck new my_file [TRUCK FLAGS]` Similar to cargo new myfile but with truck optimisations
