@@ -8,7 +8,7 @@
  Both does the same thing but Truck also comes with mold support and uses lesser number of lines for achieiving the purpose
 
  ## Why does it exist in the first place?
- This is created for newbies for their first PR. This project is barebones and can be extended. For example, it lacks implementations for freebsd and netbsd and it usually mimicks linux(Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
+ This is created for newbies for their first PR. This project is barebones and can be extended.(Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
 
  ## How does it work?
  It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold and ccache with sccache
