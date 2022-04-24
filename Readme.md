@@ -11,7 +11,7 @@
  This is created for newbies for their first PR. This project is barebones and can be extended.(Like adding colored output or fixing mistakes in the Readme.md file and if the PR makes sense, I will push it). It is only for educational purpose.
 
  ## How does it work?
- It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold and ccache with sccache. OSee the reddit comment for more details)
+ It creates a .cargo/config.toml file and rust-toolchain.toml file which replaces default linker with lld(Linux) or zld(MacOS) and mold(linux) and ccache with sccache. OSee the reddit comment for more details)
 
  ## Requirements
  - sccache: cargo install sccache
