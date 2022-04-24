@@ -18,7 +18,6 @@
  - zld(Mac Users): `brew install zld`
  - lld(Linux Users): Install using your package manager (For Arch users, `sudo pacman -Syu lld`)
  - mold(Linux Users): Install using your package manager (For Arch users, `sudo pacman -Syu mold`)
- - mold(Mac Users): `brew install mold`
  - Rust Nightly(optional): But mandatory for -ffn option
  
  ## How to install
