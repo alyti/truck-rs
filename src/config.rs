@@ -72,6 +72,11 @@ impl Config {
             "-C".to_string(),
             "link-arg=--lld-path=/usr/bin/mold".to_string(),
         ];
+        
+         let linker_flag_mac = vec![
+            "-C".to_string(),
+            "link-arg=--lld-path=/usr/bin/zld".to_string(),
+        ];
 
         self.target_linux_gnu = Target {
             linker: linker.clone(),
@@ -79,15 +84,15 @@ impl Config {
         };
         self.target_linux_musl = Target {
             linker: linker.clone(),
-            rustflags: linker_flag.clone(),
+            rustflags: linker_flag,
         };
         self.target_macos_intel = Target {
             linker: linker.clone(),
-            rustflags: linker_flag.clone(),
+            rustflags: linker_flag_mac.clone(),
         };
         self.target_macos_arm = Target {
             linker,
-            rustflags: linker_flag,
+            rustflags: linker_flag_mac,
         };
         self.write_all(false, name).is_ok()
     }
