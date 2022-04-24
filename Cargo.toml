@@ -1,6 +1,6 @@
 [package]
 name = "truck-rs"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Supercharges cargo"
 authors = ["Useless-rs <https://github.com/useless-rs>"]
