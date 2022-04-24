@@ -41,3 +41,5 @@
 
  ## LICENSE
  MIT
+
+ **If you find anything that can impove Rust's performance, please add it in optimisations.md
