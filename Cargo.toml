@@ -1,5 +1,5 @@
 [package]
-name = "truck"
+name = "truck-rs"
 version = "0.1.0"
 edition = "2021"
 description = "Supercharges cargo"
@@ -16,3 +16,6 @@ categories = ["build", "rust-build-tools"]
 toml = "0.5"
 anyhow = "1.0.57"
 serde = {version = "1.0", features = ["derive"]}
+
+[[bin]]
+name = "truck"
